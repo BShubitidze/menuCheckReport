@@ -76,5 +76,5 @@ let tipShow = document.getElementById('text').addEventListener('click', () => {
 
 let fullCheckReport = document.getElementById('full-check-report');
 let fullCheckReportShow = document.getElementById('text').addEventListener('click', () => {
-    fullCheckReport.value = parseInt(checkReport.value) + parseInt(tip.value);
+    fullCheckReport.value = parseFloat(checkReport.value) + parseFloat(tip.value);
 });
