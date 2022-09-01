@@ -1,0 +1,149 @@
+.body-container {
+    width: 500px;
+    height: 700px;
+    border: 3px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-container {
+    display: flex;
+}
+.product {
+    width: 300px;
+    height: 350px;
+}
+.cost {
+    display: flex;
+    width: 55px;
+    height: 350px;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+}
+.product-cost {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.cost input {
+    text-align: center;
+    width: 30px;
+    height: 20px;
+}
+
+.header-container {
+    display: flex;
+    width: 250px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.header-container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    margin-top: 40px;
+    line-height: 50px;
+}
+.main-container li {
+    font-size: 30px;
+    color: rgb(117, 13, 13);
+}
+
+#button {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100px;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  position: relative;
+  left: 130px;
+  margin-top: 20px;
+}
+
+#button:active,
+#button:hover {
+  outline: 0;
+}
+
+#button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+#button:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  #button {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+.footer-container {
+    width: 470px;
+    height: 80px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.check-value {
+    width: 70px;
+}
+
+.check-value input {
+    width: 70px;
+    height: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-text {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: blue;
+}
